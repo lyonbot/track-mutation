@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Track object mutations with ES6 Proxy",
   "main": "lib/index.js",
+  "module": "lib/esm/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "prepare": "rimraf lib && tsc",
+    "prepare": "rimraf lib && tsc && tsc --outDir lib/esm --declaration false --module esnext",
     "test": "jest"
   },
   "files": [

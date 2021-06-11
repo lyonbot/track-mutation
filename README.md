@@ -7,7 +7,8 @@ Track object mutations with ES6 Proxy. Simple and tested.
 ## Usage
 
 ```js
-import { createTrackingProxy } from 'track-mutation';
+// import { createTrackingProxy } from 'track-mutation';
+const { createTrackingProxy } = require('track-mutation');
 
 const data = {
   foo: 'hello',
