@@ -1,6 +1,6 @@
 {
   "name": "track-mutation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Track object mutations with ES6 Proxy",
   "main": "lib/index.js",
   "module": "lib/esm/index.js",
